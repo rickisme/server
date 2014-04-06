@@ -15,6 +15,8 @@ namespace GameServer.Model.Account
 
         public string Password { get; set; }
 
+        public string Password2 { get; set; }
+
         public string LastAddress { get; set; }
 
         public bool HasAKey { get; set; }

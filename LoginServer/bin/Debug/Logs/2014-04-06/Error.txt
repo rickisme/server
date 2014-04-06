@@ -1,0 +1,19 @@
+11:22:26.7275 | NetworkStart:
+EXCEPTION OCCURRED
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at LoginServer.Network.Opcode.Init() in c:\Users\user\Documents\GitHub\server\LoginServer\Network\Opcode.cs:line 28
+   at LoginServer.Network.NetworkFactory.NetworkStart() in c:\Users\user\Documents\GitHub\server\LoginServer\Network\NetworkFactory.cs:line 30
+11:22:37.8232 | NetworkStart:
+EXCEPTION OCCURRED
+System.ArgumentException: An item with the same key has already been added.
+   at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at LoginServer.Network.Opcode.Init() in c:\Users\user\Documents\GitHub\server\LoginServer\Network\Opcode.cs:line 28
+   at LoginServer.Network.NetworkFactory.NetworkStart() in c:\Users\user\Documents\GitHub\server\LoginServer\Network\NetworkFactory.cs:line 30
+11:24:35.9139 | Lost connection from gameserver
+11:44:28.7761 | Lost connection from gameserver
+13:17:43.5702 | Lost connection from gameserver

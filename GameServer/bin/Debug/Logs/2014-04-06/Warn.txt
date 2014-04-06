@@ -1,0 +1,93 @@
+11:23:36.2645 | Unknown Opcode: 0x1606 [8]
+11:23:36.2645 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 06 16 00 00                          ........
+        |---------------------------------------------|  |--------------|
+11:23:47.2801 | Unknown Opcode: 0x00B0 [8]
+11:23:47.2801 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|
+11:44:09.9831 | OnReceiveCallback
+EXCEPTION OCCURRED
+System.IO.FileFormatException: Element 'Password2' does not match any field or property of class GameServer.Model.Account.Account.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer.Deserialize(BsonReader bsonReader, Type nominalType, Type actualType, IBsonSerializationOptions options)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer.Deserialize(BsonReader bsonReader, Type nominalType, IBsonSerializationOptions options)
+   at MongoDB.Driver.Internal.MongoReplyMessage`1.ReadBodyFrom(BsonBuffer buffer)
+   at MongoDB.Driver.Internal.MongoReplyMessage`1.ReadFrom(BsonBuffer buffer)
+   at MongoDB.Driver.Internal.MongoConnection.ReceiveMessage[TDocument](BsonBinaryReaderSettings readerSettings, IBsonSerializer serializer, IBsonSerializationOptions serializationOptions)
+   at MongoDB.Driver.Operations.QueryOperation`1.GetFirstBatch(IConnectionProvider connectionProvider)
+   at MongoDB.Driver.Operations.QueryOperation`1.Execute(IConnectionProvider connectionProvider)
+   at MongoDB.Driver.MongoCursor`1.GetEnumerator()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MongoDB.Driver.MongoCollection.FindOneAs[TDocument](FindOneArgs args)
+   at MongoDB.Driver.MongoCollection.FindOneAs[TDocument](IMongoQuery query)
+   at MongoDB.Driver.MongoCollection`1.FindOne(IMongoQuery query)
+   at GameServer.Database.MdbAccount.GetAccountByName(String name) in c:\Users\user\Documents\GitHub\server\GameServer\Database\MdbAccount.cs:line 36
+   at GameServer.Service.AuthService.AuthAccount(String login, String password) in c:\Users\user\Documents\GitHub\server\GameServer\Service\AuthService.cs:line 17
+   at GameServer.Network.Recv.RequestAuth.Run() in c:\Users\user\Documents\GitHub\server\GameServer\Network\Recv\RequestAuth.cs:line 31
+   at GameServer.Network.ARecvPacket.execute(Client Client, Byte[] buffer) in c:\Users\user\Documents\GitHub\server\GameServer\Network\ARecvPacket.cs:line 29
+   at GameServer.Network.Client.handlePacket(Byte[] Data) in c:\Users\user\Documents\GitHub\server\GameServer\Network\Client.cs:line 140
+   at GameServer.Network.Client.OnReceiveCallback(IAsyncResult ar) in c:\Users\user\Documents\GitHub\server\GameServer\Network\Client.cs:line 71
+13:17:35.2887 | Unknown Opcode: 0x1606 [8]
+13:17:35.2887 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 06 16 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:13:02.2547 | Unknown Opcode: 0x1606 [8]
+17:13:02.2547 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 06 16 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:13:12.6913 | Unknown Opcode: 0x00B0 [8]
+17:13:12.6913 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:13:22.6919 | Unknown Opcode: 0x00B0 [8]
+17:13:22.6919 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:13:32.7044 | Unknown Opcode: 0x00B0 [8]
+17:13:32.7044 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:13:42.7070 | Unknown Opcode: 0x00B0 [8]
+17:13:42.7070 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:13:52.7206 | Unknown Opcode: 0x00B0 [8]
+17:13:52.7206 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:14:02.7412 | Unknown Opcode: 0x00B0 [8]
+17:14:02.7412 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:14:12.7387 | Unknown Opcode: 0x00B0 [8]
+17:14:12.7387 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|
+17:14:22.7523 | Unknown Opcode: 0x00B0 [8]
+17:14:22.7523 | Data:
+Buffer dump, length: 8
+Index   |---------------------------------------------|  |--------------|
+00000   06 00 00 00 B0 00 00 00                          ........
+        |---------------------------------------------|  |--------------|

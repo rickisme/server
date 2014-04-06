@@ -44,6 +44,7 @@ namespace LoginServer.Service
                     {
                         Name = login,
                         Password = password,
+                        Password2 = null,
                         LastAddress = "0.0.0.0",
                     };
                     MdbAccount.GetInstance().AddAccount(account);
@@ -53,6 +54,34 @@ namespace LoginServer.Service
                     result = AuthResponse.WrongInfo;
             }
 
+            return result;
+        }
+
+        public AuthResponse AuthPassword2(string login, string password2, ref Account account)
+        {
+            AuthResponse result;
+
+            result = AuthResponse.WrongInfo;
+
+            account = MdbAccount.GetInstance().GetAccountByName(login);
+
+            if (account != null)
+            {
+                if (account.Password2 == null)
+                {
+                    account.Name = login;
+                    account.Password2 = password2;
+                    MdbAccount.GetInstance().UpdateAccount(account);
+                    result = AuthResponse.Success;
+                }
+                else
+                {
+                    if (account.Password2 == password2)
+                        result = AuthResponse.Success;
+                    else
+                        result = AuthResponse.WrongInfo;
+                }
+            }
             return result;
         }
 

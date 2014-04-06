@@ -1,0 +1,11 @@
+C:\Users\user\Documents\GitHub\server\Common\bin\Debug\NLog.config
+C:\Users\user\Documents\GitHub\server\Common\bin\Debug\Common.dll
+C:\Users\user\Documents\GitHub\server\Common\bin\Debug\Common.pdb
+C:\Users\user\Documents\GitHub\server\Common\bin\Debug\NLog.dll
+C:\Users\user\Documents\GitHub\server\Common\bin\Debug\protobuf-net.dll
+C:\Users\user\Documents\GitHub\server\Common\bin\Debug\NLog.xml
+C:\Users\user\Documents\GitHub\server\Common\bin\Debug\protobuf-net.pdb
+C:\Users\user\Documents\GitHub\server\Common\bin\Debug\protobuf-net.xml
+C:\Users\user\Documents\GitHub\server\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\GitHub\server\Common\obj\Debug\Common.dll
+C:\Users\user\Documents\GitHub\server\Common\obj\Debug\Common.pdb

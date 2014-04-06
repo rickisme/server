@@ -75,12 +75,16 @@
     <Compile Include="Network\GameServer\Send\LSReqUserOnlineCount.cs" />
     <Compile Include="Network\NetworkFactory.cs" />
     <Compile Include="Network\Opcode.cs" />
+    <Compile Include="Network\Recv\R8048Password2.cs" />
+    <Compile Include="Network\Recv\R804CPassword2.cs" />
     <Compile Include="Network\Recv\RequestLogin.cs" />
     <Compile Include="Network\Recv\RequestSelectServer.cs" />
     <Compile Include="Network\Recv\RequestServerList.cs" />
     <Compile Include="Network\Send\ResponseLogin.cs" />
     <Compile Include="Network\Send\ResponseSelectServer.cs" />
     <Compile Include="Network\Send\ResponseServerList.cs" />
+    <Compile Include="Network\Send\W8049Password2.cs" />
+    <Compile Include="Network\Send\W804DPassword2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\AuthService.cs" />
   </ItemGroup>
