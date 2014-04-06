@@ -19,6 +19,7 @@ namespace GameServer.Network.Send
         }
         public W0011SendListChar InfoChar(Character c)
         {
+            result = 1;
             charinfo = c;
             return this;
         }
