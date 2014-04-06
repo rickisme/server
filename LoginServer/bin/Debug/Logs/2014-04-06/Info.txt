@@ -180,3 +180,27 @@
 17:12:00.6642 | Server listening gs clients at 127.0.0.1:15000...
 17:12:00.6642 | Server listening clients at 127.0.0.1:16000...
 17:12:00.9852 | Registered Server ID: 1
+17:56:22.8514 | Loaded Database Configuration
+17:56:22.8624 | Loaded Network Configuration
+17:56:22.8674 | Loaded Setting Configuration
+17:56:22.8674 | ClientManager Loaded
+17:56:22.8674 | GameServerManager Loaded
+17:56:22.8674 | Server listening gs clients at 127.0.0.1:15000...
+17:56:22.8674 | Server listening clients at 127.0.0.1:16000...
+17:56:23.1725 | Registered Server ID: 1
+18:05:28.6277 | Loaded Database Configuration
+18:05:28.6387 | Loaded Network Configuration
+18:05:28.6387 | Loaded Setting Configuration
+18:05:28.6387 | ClientManager Loaded
+18:05:28.6387 | GameServerManager Loaded
+18:05:28.6787 | Server listening gs clients at 127.0.0.1:15000...
+18:05:28.6787 | Server listening clients at 127.0.0.1:16000...
+18:05:29.1037 | Registered Server ID: 1
+18:10:20.0193 | Loaded Database Configuration
+18:10:20.0313 | Loaded Network Configuration
+18:10:20.0313 | Loaded Setting Configuration
+18:10:20.0313 | ClientManager Loaded
+18:10:20.0313 | GameServerManager Loaded
+18:10:20.0313 | Server listening gs clients at 127.0.0.1:15000...
+18:10:20.0313 | Server listening clients at 127.0.0.1:16000...
+18:10:20.3073 | Registered Server ID: 1

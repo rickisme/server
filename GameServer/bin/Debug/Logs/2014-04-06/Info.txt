@@ -182,3 +182,27 @@
 17:12:00.4612 | ClientManager Loaded
 17:12:00.4772 | Server listening clients at 127.0.0.1:16101...
 17:12:00.4772 | Server listening clients at 127.0.0.1:16102...
+17:56:22.6204 | Loaded Database Configuration
+17:56:22.6204 | Loaded Network Configuration
+17:56:22.6344 | Loaded Setting Configuration
+17:56:22.6344 | Channel: 1 Loaded
+17:56:22.6344 | Channel: 2 Loaded
+17:56:22.6344 | ClientManager Loaded
+17:56:22.6344 | Server listening clients at 127.0.0.1:16101...
+17:56:22.6344 | Server listening clients at 127.0.0.1:16102...
+18:05:28.0656 | Loaded Database Configuration
+18:05:28.0766 | Loaded Network Configuration
+18:05:28.0766 | Loaded Setting Configuration
+18:05:28.0766 | Channel: 1 Loaded
+18:05:28.0766 | Channel: 2 Loaded
+18:05:28.0766 | ClientManager Loaded
+18:05:28.0766 | Server listening clients at 127.0.0.1:16102...
+18:05:28.0766 | Server listening clients at 127.0.0.1:16101...
+18:10:19.7733 | Loaded Database Configuration
+18:10:19.7843 | Loaded Network Configuration
+18:10:19.7843 | Loaded Setting Configuration
+18:10:19.7843 | Channel: 1 Loaded
+18:10:19.7843 | Channel: 2 Loaded
+18:10:19.7843 | ClientManager Loaded
+18:10:19.7993 | Server listening clients at 127.0.0.1:16101...
+18:10:19.7993 | Server listening clients at 127.0.0.1:16102...

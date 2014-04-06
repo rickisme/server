@@ -1,6 +1,9 @@
 ﻿using GameServer.Config;
+using GameServer.Model.Account;
 using GameServer.Model.Character;
 using MongoDB.Driver;
+using MongoDB.Driver.Builders;
+using System.Collections.Generic;
 
 namespace GameServer.Database
 {
@@ -25,7 +28,19 @@ namespace GameServer.Database
             m_Server = m_Client.GetServer();
             m_Database = m_Server.GetDatabase(Configuration.Database.Name);
         }
-
+        public IDictionary<int, Character> GetListChar(string username)
+        {
+           IDictionary<int, Character> result = new Dictionary<int, Character>();
+           var collection = m_Database.GetCollection<Character>(MDBCharacterTable);
+           var query = Query<Character>.EQ(c => c.AccountName, username);
+           var cursor = collection.Find(query);
+           var count = cursor.Count(); 
+           if (count > 0)
+           {
+               // load list character 
+           }
+           return result;
+        }
         public void AddCharacter(Character Char)
         {
             var collection = m_Database.GetCollection<Character>(MDBCharacterTable);
